@@ -72,6 +72,8 @@ def EyesandMouth():
         Milly.begin_fill()
         Milly.circle(30)
         Milly.end_fill()
+        Milly.penup()
+        Milly.goto(-50,-20)
 
 
 Andy.begin_fill()
