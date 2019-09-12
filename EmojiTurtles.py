@@ -73,7 +73,27 @@ def EyesandMouth():
         Milly.circle(30)
         Milly.end_fill()
         Milly.penup()
-        Milly.goto(-50,-20)
+        Milly.goto(50,-150)
+        Milly.pendown()
+        Milly.left(180)
+        for x in range(180):
+            Milly.forward(1)
+            Milly.right(1)
+        Milly.right(90)
+        Milly.forward(115)
+        Milly.penup()
+        Milly.goto(190,-20)
+        Milly.pendown()
+        Milly.begin_fill()
+        Milly.circle(30)
+        Milly.end_fill()
+        Milly.penup()
+        Milly.goto(-200, -20)
+        Milly.pendown()
+        Milly.begin_fill()
+        Milly.circle(30)
+        Milly.end_fill()
+
 
 
 Andy.begin_fill()
